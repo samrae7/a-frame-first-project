@@ -49,6 +49,14 @@ acorn@^5.0.0, acorn@^5.2.1, acorn@^5.4.1:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.3.tgz#f473dd47e0277a08e28e9bec5aeeb04751f0b8c9"
 
+aframe-environment-component@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/aframe-environment-component/-/aframe-environment-component-1.0.0.tgz#dde6a8734dc7777d9c4a00b5bab25f877e8b3b37"
+
+aframe-event-set-component@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/aframe-event-set-component/-/aframe-event-set-component-4.1.1.tgz#a718120126e4fa2d0e900a9e64c4f1dad1cc4d41"
+
 aframe-physics-system@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/aframe-physics-system/-/aframe-physics-system-3.0.2.tgz#b32652ce10b95dc22dd42a97db497db98410c0f3"

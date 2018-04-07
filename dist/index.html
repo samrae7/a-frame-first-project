@@ -1,12 +1,28 @@
 <html>
   <head>
+    <script src="main.js"></script>
   </head>
   <body>
-    <a-scene physics>
-      <a-box position="-1 4 -3" rotation="0 45 0" color="#4CC3D9" dynamic-body></a-box>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" static-body></a-plane>
+    <!-- Try changing the preset to one of default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, 
+        threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris. -->
+    <!-- See more environment options: https://github.com/feiss/aframe-environment-component#parameters -->
+    <a-scene physics environment="preset: forest">
+      <a-box
+        dynamic-body
+        rotation="0 45 0"
+        position="-1 4 -3"
+        color="#4CC3D9"
+        event-set__enter="_event: mousedown; color: #FF0000"
+        event-set__leave="_event: mouseup; color: #4CC3D9"
+      ></a-box>
+      <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+      <a-entity id="#rig" position="0 1.6 0">
+          <a-camera>
+            <a-cursor></a-cursor>
+          </a-camera>>
+      </a-entity>
+      <a-entity gearvr-controls></a-entity>
     </a-scene>
-    <script src="main.js"></script>
   </body>
 </html>

@@ -5,6 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "aframe": "^0.8.1",
+    "aframe-environment-component": "^1.0.0",
+    "aframe-event-set-component": "^4.1.1",
     "aframe-physics-system": "^3.0.2"
   },
   "devDependencies": {
