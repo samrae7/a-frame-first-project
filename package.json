@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "npx webpack"
+  },
   "dependencies": {
     "aframe": "^0.8.1",
     "aframe-environment-component": "^1.0.0",
@@ -12,6 +15,9 @@
   "devDependencies": {
     "live-server": "^1.2.0",
     "webpack": "^4.4.1",
-    "webpack-cli": "^2.0.13"
+    "webpack-cli": "^2.0.14"
+  },
+  "engines": {
+    "node": "8.9.0"
   }
 }
