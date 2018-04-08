@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx webpack && npx live-server dist/ --port=5000"
+    "start": "npx webpack && npx live-server dist/ --port=$PORT"
   },
   "dependencies": {
     "aframe": "^0.8.1",
