@@ -3,10 +3,7 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <!-- Try changing the preset to one of default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, 
-        threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris. -->
-    <!-- See more environment options: https://github.com/feiss/aframe-environment-component#parameters -->
-    <a-scene physics environment="preset: forest">
+    <a-scene physics environment="preset: tron">
       <a-box
         dynamic-body
         rotation="0 45 0"
@@ -15,7 +12,7 @@
         event-set__enter="_event: mousedown; color: #FF0000"
         event-set__leave="_event: mouseup; color: #4CC3D9"
       ></a-box>
-      <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="4" height="4" visible="false"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
       <a-entity id="#rig" position="0 1.6 0">
           <a-camera>
