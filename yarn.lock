@@ -57,6 +57,10 @@ aframe-event-set-component@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/aframe-event-set-component/-/aframe-event-set-component-4.1.1.tgz#a718120126e4fa2d0e900a9e64c4f1dad1cc4d41"
 
+aframe-gamepad-controls@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/aframe-gamepad-controls/-/aframe-gamepad-controls-0.6.0.tgz#fefa12334f5595812e5c40fe3903266cdb5a6178"
+
 aframe-physics-system@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/aframe-physics-system/-/aframe-physics-system-3.0.2.tgz#b32652ce10b95dc22dd42a97db497db98410c0f3"

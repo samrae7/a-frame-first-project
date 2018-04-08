@@ -10,11 +10,13 @@
         position="-1 4 -3"
         color="#4CC3D9"
         event-set__enter="_event: mousedown; color: #FF0000"
+        event-set__gamepaddown="_event: gamepadbuttondown; color: #FF0000"
         event-set__leave="_event: mouseup; color: #4CC3D9"
+        event-set__gamepadup="_event: gamepadbuttonup; color: #4CC3D9"
       ></a-box>
       <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="4" height="4" visible="false"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
-      <a-entity id="#rig" position="0 1.6 0">
+      <a-entity gamepad-controls id="#rig" position="0 1.6 0">
           <a-camera>
             <a-cursor></a-cursor>
           </a-camera>>
